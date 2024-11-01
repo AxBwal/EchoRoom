@@ -2,4 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
+*{
+    background: #1E0A2E;
+}

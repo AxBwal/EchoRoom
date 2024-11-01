@@ -20,4 +20,5 @@ Record your meetings to revisit discussions or share insights with others.
 ## Breakout Rooms
 Facilitate smaller discussions within larger meetings using breakout rooms.
 
-* Designed By and Coded By := Anshuman Biswal [Twitter] (https://x.com/Akxxhil)
+* Designed and Coded By: Anshuman Biswal [Twitter](https://x.com/Akxxhil)
+

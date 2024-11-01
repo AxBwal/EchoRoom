@@ -1,4 +1,4 @@
-## EchoRoom - "Where Every Voice Echoes Clearly"
+## EchoRoom - "Where Every Voice Echoes Clearly" (Project on the way)
 EchoRoom is a video conferencing application built for seamless virtual communication. Designed with reliability, security, and interactivity at its core, EchoRoom is a robust alternative to popular platforms like Google Meet and Zoom, ensuring that every voice echoes clearly in the digital space.
 
 ## Features
@@ -19,3 +19,5 @@ Record your meetings to revisit discussions or share insights with others.
 
 ## Breakout Rooms
 Facilitate smaller discussions within larger meetings using breakout rooms.
+
+# Designed By and Coded By := Anshuman Biswal (https://x.com/Akxxhil)

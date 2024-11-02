@@ -54,7 +54,7 @@ function Hero() {
           />
 
           <div>
-            <div className="bg-[#FFD700] text-[#1E0A2E] hover:bg-white text-lg px-6 py-2 rounded-lg">Search</div>
+            <div className="bg-[#FFD700] text-[#1E0A2E] hover:bg-white text-lg px-6 py-2 rounded-lg cursor-pointer font-semibold">Search</div>
           </div>
         </div>
       </div>

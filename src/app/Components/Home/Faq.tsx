@@ -3,21 +3,31 @@ import React, { useState } from "react";
 
 const faqData = [
     {
-      id: 1,
-      question: "How do I book tickets on ShowTime?",
-      answer: "Simply search for your desired movie, event, or activity, select your preferred show time and seats, and proceed to checkout. It's quick and easy!",
+        id: 1,
+        question: "How do I book tickets on ShowTime?",
+        answer: "Simply search for your desired movie, event, or activity, select your preferred show time and seats, and proceed to checkout. It's quick and easy!",
     },
     {
-      id: 2,
-      question: "Can I cancel or refund my tickets?",
-      answer: "Cancellation and refund policies vary depending on the event organizer. Please check the specific event's terms and conditions for details.",
+        id: 2,
+        question: "Can I cancel or refund my tickets?",
+        answer: "Cancellation and refund policies vary depending on the event organizer. Please check the specific event's terms and conditions for details.",
     },
     {
-      id: 3,
-      question: "Are there any booking fees?",
-      answer: "A small convenience fee is added to each transaction to cover processing costs. The fee amount will be clearly displayed before you complete your purchase.",
+        id: 3,
+        question: "Are there any booking fees?",
+        answer: "A small convenience fee is added to each transaction to cover processing costs. The fee amount will be clearly displayed before you complete your purchase.",
     },
-  ]
+    {
+        id: 4,
+        question: "How can I contact customer support?",
+        answer: "You can reach our customer support team 24/7 via email at support@showtime.com or by calling our toll-free number 1-800-SHOWTIME.",
+    },
+    {
+        id: 5,
+        question: "Do you offer group discounts?",
+        answer: "Yes, we offer group discounts for parties of 10 or more. Please contact our group sales department for more information and to book your group tickets.",
+    },
+]
 
 function Faq() {
     const [openid, setOpenid] = useState<number | null>(null)

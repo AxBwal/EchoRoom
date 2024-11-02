@@ -3,54 +3,21 @@ import React, { useState } from "react";
 
 const faqData = [
     {
-        id: 1,
-        question: "How do I join a meeting in EchoRoom?",
-        answer:
-            "Simply click on the meeting link provided by the host. You can also enter the meeting ID on the homepage to join instantly.",
+      id: 1,
+      question: "How do I book tickets on ShowTime?",
+      answer: "Simply search for your desired movie, event, or activity, select your preferred show time and seats, and proceed to checkout. It's quick and easy!",
     },
     {
-        id: 2,
-        question: "Is EchoRoom compatible with all devices?",
-        answer:
-            "Yes, EchoRoom is optimized for desktop, tablet, and mobile devices, providing a seamless experience across all platforms.",
+      id: 2,
+      question: "Can I cancel or refund my tickets?",
+      answer: "Cancellation and refund policies vary depending on the event organizer. Please check the specific event's terms and conditions for details.",
     },
     {
-        id: 3,
-        question: "Can I record my meetings?",
-        answer:
-            "Absolutely! With one-click recording, you can capture entire sessions to review or share later.",
+      id: 3,
+      question: "Are there any booking fees?",
+      answer: "A small convenience fee is added to each transaction to cover processing costs. The fee amount will be clearly displayed before you complete your purchase.",
     },
-    {
-        id: 4,
-        question: "How secure are my meetings on EchoRoom?",
-        answer:
-            "EchoRoom uses end-to-end encryption to ensure that your conversations, files, and video streams are secure and accessible only to participants.",
-    },
-    {
-        id: 5,
-        question: "Does EchoRoom support screen sharing?",
-        answer:
-            "Yes, you can share your entire screen, specific applications, or browser tabs easily, enhancing collaborative experiences.",
-    },
-    {
-        id: 6,
-        question: "Are there any tools for interactive sessions?",
-        answer:
-            "EchoRoom includes polls, Q&A, and virtual whiteboards to help keep your sessions engaging and interactive.",
-    },
-    {
-        id: 7,
-        question: "How do I invite participants to my meeting?",
-        answer:
-            "When creating a meeting, EchoRoom generates a unique link that you can share with participants. You can also add email invitations directly through the app.",
-    },
-    {
-        id: 8,
-        question: "What happens if I have technical issues during a call?",
-        answer:
-            "EchoRoom offers 24/7 support. Visit the help section in the app or contact our support team for assistance at any time.",
-    },
-];
+  ]
 
 function Faq() {
     const [openid, setOpenid] = useState<number | null>(null)
@@ -65,7 +32,7 @@ function Faq() {
     return (
         <div>
             <div className="mt-24">
-                <div className="text-3xl font-bold text-center text-[#FFD700] mb-12"> Have questions about EchoRoom? </div>
+                <div className="text-3xl font-bold text-center text-[#FFD700] mb-12"> Have questions about ShowTime? </div>
                 <div className="space-y-4">
                     {
                         faqData.map((item) => {

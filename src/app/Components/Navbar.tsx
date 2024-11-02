@@ -23,7 +23,7 @@ function Navbar() {
   return (
     <div className="flex justify-between px-5 mt-5">
        <a href="#" className="text-3xl font-bold tracking-tighter text-[#FFD700]">
-            Echo<span className="text-white">Room</span>
+            Show<span className="text-white">Time</span>
           </a>
       <div className="flex gap-4 text-[#D8BFD8] items-center cursor-pointer">
         {data.map((item) => {

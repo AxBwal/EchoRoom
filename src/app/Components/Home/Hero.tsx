@@ -1,33 +1,33 @@
 import React from 'react'
-import { MdOutlineKeyboardVoice } from "react-icons/md";
-import { IoVideocamOutline } from "react-icons/io5";
-import { GoPeople } from "react-icons/go";
-import { PiLightning } from "react-icons/pi";
+import { TbMovie } from "react-icons/tb";
+import { CiMusicNote1 } from "react-icons/ci";
+import { GiTheater } from "react-icons/gi";
+import { TbActivityHeartbeat } from "react-icons/tb";
 
 const Data = [
   {
     id: 1,
-    title: "HD Video Calls",
-    desc: "See every detail with our high-definition video conferencing technology.",
-    icons: <MdOutlineKeyboardVoice size={"30px"} />
+    title: "Latest Movies",
+    desc: "Book tickets for the best latest movies in your city.",
+    icons: <TbMovie size={"30px"} />
   },
   {
     id: 2,
-    title: "Crystal Clear Audio",
-    desc: "Experience high-fidelity sound that makes every conversation feel natural.",
-    icons: <IoVideocamOutline size={"30px"} />
+    title: "Live Events",
+    desc: "Book tickets for the best live events in your city.",
+    icons: <CiMusicNote1 size={"30px"} />
   },
   {
     id: 3,
-    title: "Collaborative Workspaces",
-    desc: "Work together seamlessly with our intuitive collaboration tools.",
-    icons: <GoPeople size={"30px"} />
+    title: "Theater & Arts",
+    desc: "Book tickets for the best theater & arts in your city.",
+    icons: <GiTheater size={"30px"} />
   },
   {
     id: 4,
-    title: "Lightning Fast",
-    desc: "Enjoy lag-free communication with our optimized infrastructure.",
-    icons: <PiLightning size={"30px"} />
+    title: "Sports & More",
+    desc: "Book tickets for the best sports & more in your city.",
+    icons: <TbActivityHeartbeat size={"30px"} />
   },
 ]
 
@@ -36,13 +36,13 @@ function Hero() {
     <div className='flex justify-between px-5 py-24 '>
       <div className='flex flex-col gap-7'>
         <div>
-          <p className='text-[#ffffff] text-5xl font-bold leading-tight'>Where Every Voice</p>
-          <p className='text-[#FFD700] text-5xl font-bold'>Echoes Clearly</p>
+          <p className='text-[#ffffff] text-5xl font-bold leading-tight'>Your Gateway to</p>
+          <p className='text-[#FFD700] text-5xl font-bold'>Entertainment</p>
         </div>
         <div className='text-lg py-5'>
-          <p className='text-[#D8BFD8]'>Step into a virtual space where your ideas, voices, and</p>
-          <p className='text-[#D8BFD8]'>collaborations come to life. EchoRoom ensures crystal-clear communication,</p>
-          <p className='text-[#D8BFD8]'> bringing people together as if they're right next to you.</p>
+          <p className='text-[#D8BFD8]'>Discover and book tickets for the latest movies, live events,</p>
+          <p className='text-[#D8BFD8]'>plays, sports, and activities. ShowTime brings the best</p>
+          <p className='text-[#D8BFD8]'>entertainment right to your fingertips.</p>
         </div>
 
         <div className="flex gap-4 text-[#D8BFD8]">

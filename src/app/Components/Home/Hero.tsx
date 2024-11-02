@@ -46,8 +46,16 @@ function Hero() {
         </div>
 
         <div className="flex gap-4 text-[#D8BFD8]">
-          <div className="bg-[#ffffff] font-semibold text-black rounded-md px-5 py-2 hover:bg-[#FFD700] cursor-pointer">Sign In</div>
-          <div className="bg-[#FFD700] font-semibold text-black rounded-md px-5 py-2 hover:bg-[#ffffff] cursor-pointer">Go to WorkSpace</div>
+
+          <input
+            className="bg-white/10 border-white/20 text-white placeholder-[#D8BFD8] text-lg px-6 py-2 rounded-lg"
+            placeholder="Search for movies, events, plays, sports..."
+            type="text"
+          />
+
+          <div>
+            <div className="bg-[#FFD700] text-[#1E0A2E] hover:bg-white text-lg px-6 py-2 rounded-lg">Search</div>
+          </div>
         </div>
       </div>
 

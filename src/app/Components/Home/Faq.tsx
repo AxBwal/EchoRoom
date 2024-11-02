@@ -64,13 +64,13 @@ function Faq() {
     }
     return (
         <div>
-            <div>
-                <div className="text-[#FFD700] text-2xl text-center"> Have questions about EchoRoom? </div>
-                <div>
+            <div className="mt-24">
+                <div className="text-3xl font-bold text-center text-[#FFD700] mb-12"> Have questions about EchoRoom? </div>
+                <div className="space-y-4">
                     {
                         faqData.map((item) => {
-                            return <div key={item.id}>
-                                <div className="text-[#FFD700] text-center">{item.question} <span className="cursor-pointer" onClick={() => openhandler(item.id)}>
+                            return <div key={item.id} className="bg-white/5 rounded-lg overflow-hidden">
+                                <div onClick={() => openhandler(item.id)} className="text-[#FFD700] px-6 py-4 flex justify-between items-center text-left w-full  font-semibold cursor-pointer">{item.question} <span className="cursor-pointer">
                                     {
                                         openid === item.id ? ("-") : ("+")
                                     }
@@ -78,7 +78,7 @@ function Faq() {
                                 </div>
 
                                 {
-                                    openid === item.id && (<div className="text-[#D8BFD8] text-center">{item.answer}</div>)
+                                    openid === item.id && (<div className="text-[#D8BFD8] px-6 pb-4">{item.answer}</div>)
                                 }
                             </div>
                         })

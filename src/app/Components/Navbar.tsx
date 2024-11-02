@@ -26,7 +26,7 @@ function Navbar() {
       <div className="flex gap-4 text-[#D8BFD8] items-center cursor-pointer">
         {data.map((item) => {
           return (
-            <div>
+            <div key={item.id}>
               <div className="hover:text-[#FFD700]">{item.title}</div>
             </div>
           );
